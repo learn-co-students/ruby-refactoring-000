@@ -57,7 +57,7 @@ describe "RubyRefactoring" do
         steven.walk
         expect(steven.dog.leash).to eq(true)
         expect(steven.dog.plastic_bag).to eq(true)
-        expect(steven.walking?).to eq(true)
+        expect(alfi.walking?(steven)).to eq(true)
       end
     end
 
