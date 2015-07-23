@@ -16,8 +16,8 @@ class Dog
     "Woof!"
   end
 
-  def walking?(owner)
-    owner.dog.walking
+  def walking?
+    self.walking
   end
 
   def vet_checkup?(owner)

@@ -26,8 +26,8 @@ class Owner
     @dog.walking?
   end
 
-  def vet_checkup?(dog)
-    dog.vet_checkup?
+  def vet_checkup?
+    @dog.vet_checkup?
   end
 
 end
