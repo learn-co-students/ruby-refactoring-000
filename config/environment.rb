@@ -3,3 +3,4 @@ require_relative '../lib/owner'
 
 require 'bundler/setup'
 Bundler.require(:default, :development)
+Dog.run
